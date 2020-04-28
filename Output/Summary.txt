@@ -1,0 +1,28 @@
+Number of records in Source is: 10014
+
+Number of duplicate records in source is: 16
+
+Attribute names available in source is: ['pk_1', 'pk_2', 'pk_3', 'pk_4', 'pk_5', 'data_1', 'data_2']
+
+Data type of each attribute name is as below 
+pk_1        int64
+pk_2        int64
+pk_3        int64
+pk_4        int64
+pk_5        int64
+data_1      int64
+data_2    float64
+dtype: object
+
+Sample records from the source is as below 
+      pk_1   pk_2  pk_3   pk_4       pk_5  data_1   data_2
+4310   233   1546    15  11072  108692512       7  3352.35
+272    236   1582    22  11044  100013109       1    16.44
+9080   236    986    27  12081  122366407       6    88.53
+6398   236   1028    73  15231  114740739      32   380.89
+6786   233   1522    81  11270  116235252       4   845.15
+8811   196  10319    22  14685  122078541       6   573.00
+1881   215   1002    72  11159  101973675       4   116.06
+6204   223   1045    19  11253  114173160       1  1786.00
+8627   215    972    79  11025  122042919       1   649.81
+665    235   1356    19  11253  101005585       2   213.01
