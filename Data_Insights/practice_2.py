@@ -13,10 +13,10 @@ students = [('jack', 34, 'Sydeny'),
 ('Sachin', 30, 'Delhi')
 ]
 # Create a DataFrame object
-source = pd.read_csv('F:\Thileeban\python\\\Data_2.csv')
+source = pd.read_csv('F:\xxxxx\python\\\Data_2.csv')
 print(source.head())
 
-root_path = 'F:\Thileeban\python\\'
+root_path = 'F:\xxxxx\python\\'
 folder = 'Visuals'
 output_path = os.path.join(root_path, folder)
 os.mkdir(output_path)
@@ -39,7 +39,7 @@ for col in list(source.columns):
 
 '''
 sns_plot = sns.pairplot(data=source)
-sns_plot.savefig('F:\Thileeban\python\\pair_plot.png')
+sns_plot.savefig('F:\xxxxx\python\\pair_plot.png')
 plt.show()'''
 
 #sns.countplot(x='pk_1', data=source)
