@@ -82,7 +82,7 @@ class Insights:
             unique_value_df.index.name = col_nm
             unique_value_df.columns = ['count']
             unique_value_df.to_csv(report_name)
-            print("Completed finding unique values and its count in each column.,")
+        print("Completed finding unique values and its count in each column.,")
 
     def find_stats(source, output_path):
         """This function receives dataframe and output path as an input.
