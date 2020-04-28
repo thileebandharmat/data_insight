@@ -76,6 +76,7 @@ class DataInsightDriver:
             ist.find_stats(source, output_path)
         except Exception as err:
             print(err)
+        print("Output is available in: ", output_path)
 
 
 
