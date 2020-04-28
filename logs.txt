@@ -1,0 +1,32 @@
+F:xxxxxx\python\etl_validations\venv\Scripts\python.exe F:/xxxxxxx/python/etl_validations/__main__.py
+Enter option from below based on your source data type
+ 1. CSV 
+ 2. DB - SQL Server 
+ 3. MySQL 
+ 4. DB - Oracle 
+ 5. DB - MS Access  
+ 6. DB - Netezza 
+ 7. Simple JSON 
+ 8. Nested Json 
+ 9. Others 
+   1
+Enter the Absolute path of source file: F:\xxxxxxx\python\\Data_2.csv
+Enter the primary key column name, if it is a combination of multiple columns, seperate it with comma
+if you don't know primary key, please press enter key. We will be considering combination of all columns as primary key.
+pk_3,pk_4,pk_5
+Please enter the absolute path of output, when you want results to be published: F:\xxxxxx\python\
+Started creating summary.,
+Completed creating summary.,
+Started finding complete duplicate records.,
+Completed finding complete duplicate records.,
+Started finding duplicate records based on primary key.,
+Completed finding duplicate records based on primary key.,
+Started finding count of null and not null records in each column.,
+Completed finding count of null and not null records in each column.,
+Started finding unique values and its count in each column.,
+Completed finding unique values and its count in each column.,
+Started finding the stats of each column.,
+Completed finding the stats of each column.,
+Output is available in:  F:\xxxxxxx\python\Report_20200428_174516
+
+Process finished with exit code 0
